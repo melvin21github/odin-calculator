@@ -6,3 +6,45 @@ body{
     width: 100vw;
     height: 100vw;
 }
+
+.btn{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    font-size: 70px;
+}
+
+.number:hover{
+    background-color: rgb(12, 12, 12);
+}
+
+.operator{
+    background-color: black;
+}
+
+.screen{
+    border: 3px solid green;
+    border-radius: 10px;
+    width: 260px;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
