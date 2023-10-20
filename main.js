@@ -44,12 +44,12 @@ clear.addEventListener("click", function () {
 equal.addEventListener("click", function () {
     if (currentValue != '' && previousValue != '') {
         calculate();
-        if (previousValue < 9) {
+        if (previousValue.length < 9) {
             previous.textContent = "";
             current.textContent = previousValue;
         }
         else{
-            previousValue = previousValue.slice(0,9);
+            previousValue = previousValue.slice(0,8);
             current.textContent = previousValue + "...";
         }
     }
